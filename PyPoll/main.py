@@ -1,7 +1,7 @@
 import os
 import csv
 
-csvpath = os.path.join('/Users/NicoleAnderson/Dropbox/My Mac (Nicole’s MacBook Air)/Documents/GitHub/python-challenge/PyPoll/Resources/election_data.csv')
+csvpath = os.path.join('Resources/election_data.csv')
 
 votes = 0
 
@@ -39,7 +39,7 @@ print("-------------------------")
 print("Winner: " + winner)
 print("-------------------------")
 
-outFileName="/Users/NicoleAnderson/Dropbox/My Mac (Nicole’s MacBook Air)/Documents/GitHub/python-challenge/PyPoll/analysis/results.txt"
+outFileName="../analysis/results.txt"
 outFile=open(outFileName, "w")
 outFile.write("Election Results \n")
 outFile.write("---------------------------- \n")
